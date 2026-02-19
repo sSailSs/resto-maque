@@ -87,6 +87,10 @@ body{
     background: rgba(59,42,42,.65);
     border: 1px solid rgba(204,99,96,.25);
     border-radius: 6px;
+    display: none;
+  }
+  #mainNav.show {
+    display: block !important;
   }
   .topbar .nav-link{ padding: 10px 0; }
   .logo-header{ width: 78px; }
