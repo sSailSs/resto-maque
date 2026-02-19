@@ -367,6 +367,9 @@ body{
   padding: 46px 50px;
   color: #1b0f10;
   box-shadow: 0 18px 45px rgba(0,0,0,.35);
+
+  max-width: 1100px;   /* largeur contrôlée */
+  margin: 0 auto;      /* centré */
 }
 
 .footer-brand{ text-align:center; }
@@ -420,12 +423,10 @@ body{
 
 .footer-bottom{
   margin-top: 18px;
-  padding: 18px 10px;
+  padding: 18px 20px;
   display: flex;
   justify-content: space-between;
-  color: var(--text);
-  opacity: .85;
-  font-size: 12px;
+  gap: 12px;
 }
 
 .footer-link{ color: var(--text); text-decoration:none; }
@@ -435,4 +436,9 @@ body{
   .footer-main{ padding: 34px 26px; }
   .footer-bottom{ flex-direction: column; gap: 10px; text-align:center; }
   .footer-socials{ justify-content: center; }
+}
+
+.footer-wrap{
+  max-width: 1100px;
+  margin: 0 auto;
 }
