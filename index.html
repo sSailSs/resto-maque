@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Billig Breizh</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg p-0">
+
+      <!-- Logo + nom -->
+      <a class="navbar-brand d-flex align-items-center gap-3 m-0" href="#">
+        <img src="images/logo.png" class="logo-header" alt="Logo">
+        <div>
+          <div class="brand-title">BILLIG BREIZH</div>
+          <small>Crêperie & traiteur</small>
+        </div>
+      </a>
+
+      <!-- Burger -->
+      <button class="navbar-toggler burger" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Liens -->
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-3 mt-3 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">L'histoire</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Événements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">La carte</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+</header>
+
+
+<main class="container">
+  <section class="frame">
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-5 hero-left">
+        <div class="logo-block">
+          <img src="images/logo.png" class="logo-hero" alt="logo">
+        </div>
+
+        <h1 class="hero-title">BILLIG BREIZH</h1>
+        <p class="hero-sub">Crêperie & traiteur</p>
+
+        <img src="images/logop.png" class="ornament" alt="ornement">
+
+        <p class="hero-text">
+          CRÊPERIE TRADITIONNELLE BRETONNE<br>
+          DEPUIS PLUS DE 20 ANS
+        </p>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="hero-image"></div>
+      </div>
+
+    </div>
+
+    <div class="row cards mt-4">
+
+      <div class="col-md-4">
+        <div class="card-box card-left">
+          <h3>Découvrez nos crêpes</h3>
+          <p>Menu paysan, terroir & spécialités</p>
+          <button class="btn-outline">LA CARTE</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-box card-mid">
+          <h3>Horaires d'ouverture :</h3>
+          <p>
+            du Lundi au Samedi<br>
+            12h à 14h30 et 19h à 22h30<br><br>
+            Ouvert le Dimanche pendant la saison estivale.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-box accent card-right">
+          <h3>Une table ?</h3>
+          <p>Réservez ici</p>
+          <button class="btn-outline">CONTACT</button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+<section class="section-galerie mt-5">
+  <div class="frame frame--galerie">
+
+    <div class="row align-items-center">
+
+      <!-- TEXTE -->
+      <div class="col-lg-6">
+        <p class="small-title">GALERIE</p>
+
+        <h2 class="galerie-title">
+          REFLETS VISUELS<br>
+          DU BILLIG BREIZH
+        </h2>
+
+        <p class="galerie-text">
+          Le BILLIG BREIZH vous accueille pour déguster ses crêpes de blé noir et de froment grâce à ses menus conçus pour satisfaire vos besoins. Que ce soit pour des événements d’entreprises : repas, cocktails, ou encore réunions, des formules peuvent être adaptées en fonction de vos attentes.
+        </p>
+
+        <button class="btn-outline mt-3">LA CARTE</button>
+      </div>
+
+      <!-- IMAGES -->
+      <div class="col-lg-6 text-center">
+
+        <div class="slider duo">
+
+          <div class="slides-wrapper">
+            <div class="slide-pair active">
+              <img src="images/crepe1.jpg">
+              <img src="images/crepe2.jpg">
+            </div>
+
+            <div class="slide-pair">
+              <img src="images/crepe3.jpg">
+              <img src="images/crepe4.jpg">
+            </div>
+
+            <div class="slide-pair">
+              <img src="images/crepe5.jpg">
+              <img src="images/crepe6.jpg">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="slider-controls">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+
+          <span class="arrow" id="nextSlide">></span>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<section class="section-evenements mt-5">
+  <div class="frame frame--events">
+
+    <h2 class="events-title">EVENEMENTS</h2>
+
+    <div class="row g-4 align-items-start events-grid">
+
+      <!-- Bloc 1 : texte gauche -->
+      <div class="col-lg-4 events-text-left">
+        <h3 class="events-subtitle">POUR LES<br>PARTICULIERS</h3>
+
+        <p class="events-text">
+          Pour un baptême, un anniversaire ou une cousinade, partagez un bon moment,
+          tous ensemble, autour de cette tradition bretonne.
+        </p>
+
+        <button class="btn-outline mt-2">EN SAVOIR PLUS</button>
+      </div>
+
+      <!-- Bloc 1 : image droite -->
+      <div class="col-lg-8">
+        <div class="events-img events-img-top"
+             style="background-image:url('images/event-1.jpg');"></div>
+      </div>
+
+      <!-- Bloc 2 : image gauche -->
+      <div class="col-lg-8">
+        <div class="events-img events-img-bottom"
+             style="background-image:url('images/event-2.jpg');"></div>
+      </div>
+
+      <!-- Bloc 2 : texte droite -->
+      <div class="col-lg-4 events-text-right">
+        <h3 class="events-subtitle text-lg-end">POUR LES<br>PROFESSIONNELS</h3>
+
+        <p class="events-text text-lg-end">
+          Pour un baptême, un anniversaire ou une cousinade, partagez un bon moment,
+          tous ensemble, autour de cette tradition bretonne.
+        </p>
+
+        <div class="text-lg-end">
+          <button class="btn-outline mt-2">EN SAVOIR PLUS</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer mt-5">
+
+  <!-- Bloc rose -->
+  <div class="footer-main">
+    <div class="row align-items-center g-4">
+
+      <!-- Logo / Nom -->
+      <div class="col-lg-4 footer-brand">
+        <img src="images/logo-black.png" class="footer-logo" alt="Logo noir">
+        <div class="footer-name">BILLIG BREIZH</div>
+        <div class="footer-sub">Crêperie & traiteur</div>
+      </div>
+
+      <!-- Horaires / Réseaux -->
+      <div class="col-lg-4 footer-info">
+        <div class="footer-block">
+          <div class="footer-title">HORAIRES :</div>
+          <p class="footer-text">
+            Lundi à Samedi :<br>
+            12h00 - 14h30 &nbsp;|&nbsp; 18 - 22h30<br><br>
+            Dimanche : Fermé
+          </p>
+        </div>
+
+        <div class="footer-block mt-3">
+          <div class="footer-title">NOUS RETROUVER :</div>
+
+          <div class="footer-socials">
+            <a href="#" class="social" aria-label="Instagram">
+              <img src="images/ico-instagram.webp" alt="">
+            </a>
+            <a href="#" class="social" aria-label="Facebook">
+              <img src="images/ico-facebook.webp" alt="">
+            </a>
+            <a href="#" class="social" aria-label="Email">
+              <img src="images/ico-mail.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="col-lg-4 footer-map">
+        <div class="footer-title">MAP :</div>
+
+        <!-- image -->
+        <img src="images/map.png" class="map-img" alt="Carte">
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Barre noire -->
+  <div class="footer-bottom">
+    <a href="#" class="footer-link">Politique de confidentialité</a>
+    <a href="#" class="footer-link">Mentions légales</a>
+  </div>
+
+</footer>
+
+
+
+</main>
+
+</body>
+</html>
+
+<script>
+let index = 0;
+const pairs = document.querySelectorAll(".slide-pair");
+const dots = document.querySelectorAll(".dot");
+
+function show(i){
+  pairs.forEach(p => p.classList.remove("active"));
+  dots.forEach(d => d.classList.remove("active"));
+
+  pairs[i].classList.add("active");
+  dots[i].classList.add("active");
+  index = i;
+}
+
+function next(){
+  index++;
+  if(index >= pairs.length) index = 0;
+  show(index);
+}
+
+document.getElementById("nextSlide").onclick = next;
+
+dots.forEach((dot,i)=>{
+  dot.onclick = ()=>show(i);
+});
+</script>
